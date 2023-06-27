@@ -139,8 +139,8 @@ export default function Sports() {
         <Grid container spacing={2}>
           {SPORT_DATA.map((each: any, index: number) => {
             return (
-              <Grid item xs={4}>
-                <Card sx={{ maxWidth: 345 }}>
+              <Grid item xs={12} sm={6} md={4} lg={4}>
+                <Card>
                   <CardHeader
                     avatar={
                       <Avatar sx={{ bgcolor: "#38383a" }} aria-label="recipe">

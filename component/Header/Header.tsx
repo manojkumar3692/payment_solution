@@ -69,7 +69,7 @@ export default function Header({}: Props) {
                   textDecoration: "none",
                 }}
               >
-                LOGO
+                JK PLAY
               </Typography>
 
               <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
